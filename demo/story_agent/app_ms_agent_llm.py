@@ -1,8 +1,10 @@
 from __future__ import annotations
-import copy
-import os
-import re
 import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../'))
+
+import copy
+import re
 from functools import partial
 
 import gradio as gr
