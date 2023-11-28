@@ -101,7 +101,7 @@ model_cfg_file = os.getenv('MODEL_CONFIG_FILE', None)
 tool_cfg = Config.from_file(tool_cfg_file)
 model_cfg = Config.from_file(model_cfg_file)
 
-model_name = 'modelscope-agent-7b'
+model_name = '/data/ModelScope-Agent-7B'
 llm = LLMFactory.build_llm(model_name, model_cfg)
 
 
