@@ -320,4 +320,4 @@ with gr.Blocks(css=MAIN_CSS_CODE, theme=gr.themes.Soft()) as demo:
     demo.title = "StoryAgent 🎁"
     
     demo.queue(concurrency_count=1, status_update_rate='auto', api_open=False)
-    demo.launch(show_api=False, share=False)
+    demo.launch(show_api=False, share=False, server_port=6006)
